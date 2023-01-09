@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	// fmt.Println("Hello, World1!")
+	fmt.Println("GOLANG switchcase")
+
 	rand.Seed(time.Now().UnixNano())
-	randNumber := rand.Intn(100)
-	fmt.Println(randNumber)
+
 }
